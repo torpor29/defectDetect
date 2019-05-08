@@ -1,0 +1,143 @@
+﻿生成启动时间为 2017/10/6 2:20:07。
+     1>项目“C:\Users\BV2\Desktop\TRYimportPIC\TRYimportPIC\TRYimportPIC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\BVMainSystem\02_SDK\01_BVSDK\BVSDK_Windows\BVSimpleDemo\include /I"C:\MER-Series-zhoucheng\Samples\VC SDK\inc" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\TRYimportPIC.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\BVMainSystem\02_SDK\01_BVSDK\BVSDK_Windows\BVSimpleDemo\include /I"C:\MER-Series-zhoucheng\Samples\VC SDK\inc" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\TRYimportPIC.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt NMFC_PASS.cpp NMFC_SETTING.cpp TRYimportPIC.cpp TRYimportPICDlg.cpp
+         NMFC_PASS.cpp
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(47): warning C4005: “TRUE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(273) : 参见“TRUE”的前一个定义
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(48): warning C4005: “FALSE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(272) : 参见“FALSE”的前一个定义
+         NMFC_SETTING.cpp
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(47): warning C4005: “TRUE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(273) : 参见“TRUE”的前一个定义
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(48): warning C4005: “FALSE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(272) : 参见“FALSE”的前一个定义
+     1>NMFC_SETTING.cpp(227): warning C4305: “-=”: 从“double”到“float”截断
+     1>NMFC_SETTING.cpp(231): warning C4305: “+=”: 从“double”到“float”截断
+     1>NMFC_SETTING.cpp(316): warning C4305: “-=”: 从“double”到“float”截断
+     1>NMFC_SETTING.cpp(320): warning C4305: “+=”: 从“double”到“float”截断
+     1>NMFC_SETTING.cpp(338): warning C4305: “-=”: 从“double”到“float”截断
+     1>NMFC_SETTING.cpp(342): warning C4305: “+=”: 从“double”到“float”截断
+     1>NMFC_SETTING.cpp(402): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(403): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(407): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(408): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(412): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(413): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(417): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(418): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(422): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(423): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(427): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(428): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(432): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(433): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(437): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(438): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(442): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(443): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(447): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(448): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(452): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(453): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(457): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(458): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(464): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(465): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(471): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(472): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(478): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(479): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(485): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(486): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(492): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(493): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(499): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(500): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(506): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(507): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(513): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(514): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(520): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(521): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(527): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(528): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(532): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(533): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(535): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+     1>NMFC_SETTING.cpp(536): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
+         TRYimportPIC.cpp
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(47): warning C4005: “TRUE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(273) : 参见“TRUE”的前一个定义
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(48): warning C4005: “FALSE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(272) : 参见“FALSE”的前一个定义
+         TRYimportPICDlg.cpp
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.1\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(47): warning C4005: “TRUE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(273) : 参见“TRUE”的前一个定义
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\TRYimportPICDlg.h(48): warning C4005: “FALSE”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(272) : 参见“FALSE”的前一个定义
+     1>TRYimportPICDlg.cpp(612): warning C4805: “==”: 在操作中将类型“volatile BOOL”与类型“bool”混合不安全
+     1>TRYimportPICDlg.cpp(631): warning C4805: “==”: 在操作中将类型“volatile BOOL”与类型“bool”混合不安全
+     1>TRYimportPICDlg.cpp(1318): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1320): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1322): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1324): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1326): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1334): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1336): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1338): warning C4244: “=”: 从“double”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1365): warning C4244: “=”: 从“int”转换到“volatile float”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1371): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TRYimportPICDlg.cpp(1374): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>TRYimportPICDlg.cpp(1488): warning C4101: “num_Sel”: 未引用的局部变量
+     1>TRYimportPICDlg.cpp(1507): warning C4805: “!=”: 在操作中将类型“volatile BOOL”与类型“bool”混合不安全
+     1>TRYimportPICDlg.cpp(1570): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+     1>TRYimportPICDlg.cpp(1580): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+     1>TRYimportPICDlg.cpp(1928): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1947): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(1967): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2064): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2065): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2078): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2201): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2380): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2438): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2452): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2453): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2457): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2542): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>TRYimportPICDlg.cpp(2626): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>c:\users\bv2\desktop\tryimportpic\tryimportpic\tryimportpicdlg.cpp(2815): warning C4715: “EventCallbackFunc”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\TRYimportPIC.res" TRYimportPIC.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BV2\Desktop\TRYimportPIC\x64\Release\TRYimportPIC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Daheng Imaging\GalaxySDK\Samples\VC SDK\lib\x64" BVMainCore.lib DxImageProc.lib GxIAPI.lib opencv_world310.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\BV2\Desktop\TRYimportPIC\x64\Release\TRYimportPIC.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BV2\Desktop\TRYimportPIC\x64\Release\TRYimportPIC.lib" /MACHINE:X64 x64\Release\TRYimportPIC.res
+         x64\Release\NMFC_PASS.obj
+         x64\Release\NMFC_SETTING.obj
+         x64\Release\stdafx.obj
+         x64\Release\TRYimportPIC.obj
+         x64\Release\TRYimportPICDlg.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+         TRYimportPIC.vcxproj -> C:\Users\BV2\Desktop\TRYimportPIC\x64\Release\TRYimportPIC.exe
+     1>已完成生成项目“C:\Users\BV2\Desktop\TRYimportPIC\TRYimportPIC\TRYimportPIC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.58
